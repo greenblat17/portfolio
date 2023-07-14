@@ -1,6 +1,6 @@
 # Portfolio of Alexander Zhuravlev
 
-    Portfolio : 
+    Portfolio: 
         - https://github.com/greenblat17
 
 ## Социальная сеть
@@ -13,7 +13,7 @@
         - Java 17, Spring Boot, Spring Security, REST API, PostgreSQL, Lombok, Swagger, Maven
         - Тестирование: Junit 5, Mockito
     
-    Ссылки:
+    Ссылка:
     - https://github.com/greenblat17/social-network
     
 ## Учебная практика в ЛЭТИ
@@ -33,7 +33,7 @@
         - Файлы docker и docker-compose приложены к проекту
     
     Ссылка:
-    - https://github.com/greenblat17/naumen-task
+        - https://github.com/greenblat17/index-documents
 
 ## Тестовое задание от компании NAUMEN
     Особенности:
@@ -47,7 +47,7 @@
         - Тестирование: Junit 5, Mockito
     
     Ссылка:
-    - https://github.com/greenblat17/naumen-task
+        - https://github.com/greenblat17/naumen-task
     
 ## Приложение списка дел (монолит):
     Особенности:
@@ -58,8 +58,8 @@
     Стэк:
         - Spring Boot, Spring Data, Spring Security, REST API, PostgreSQL, Lombok, Maven, 
     
-    Ссылки:
-    - https://github.com/greenblat17/todo-backend/
+    Ссылка:
+        - https://github.com/greenblat17/todo-backend/
 
 ## Приложение списка дел (Spring cloud):
     Особенности:
