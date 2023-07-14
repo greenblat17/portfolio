@@ -1,6 +1,8 @@
 # Portfolio of Alexander Zhuravlev
 
     Portfolio: 
+        - Java Developer
+        - Computer Science student at Saint Petersburg Electrotechnical University
         - https://github.com/greenblat17
 
 ## Социальная сеть
