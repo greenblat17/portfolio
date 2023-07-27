@@ -9,7 +9,6 @@
     Особенности:
         - Сервис регистрации и авторизации пользователей на JWT token
         - Возможность выкладывать посты, лайкать их, а также вступать в группы
-          закрепляется за компанией
     
     Стэк:
         - Java 17, Spring Boot, Spring Security, REST API, PostgreSQL, Lombok, Swagger, Maven
@@ -50,6 +49,16 @@
     
     Ссылка:
         - https://github.com/greenblat17/naumen-task
+
+## Приложение обмена валют
+    REST API для описания валют и обменных курсов. Позволяет просматривать и редактировать списки валют и обменных курсов, и совершать расчёт конвертации произвольных сумм из одной валюты в другую.
+    
+    Стэк:
+        - Java, Servlets, JDBC, PostgreSQL, Lombok, Maven
+        - Тестирование: Junit5
+    
+    Ссылка:
+        - [https://github.com/greenblat17/naumen-task](https://github.com/greenblat17/currency-exchange)
     
 ## Приложение списка дел (монолит):
     Особенности:
