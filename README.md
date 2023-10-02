@@ -2,21 +2,9 @@
 
     Portfolio: 
         - Java Developer
-        - Computer Science student at Saint Petersburg Electrotechnical University
+        - СS student at Saint Petersburg Electrotechnical University
         - https://github.com/greenblat17
 
-## Социальная сеть
-    Особенности:
-        - Сервис регистрации и авторизации пользователей на JWT token
-        - Возможность выкладывать посты, лайкать их, а также вступать в группы
-    
-    Стэк:
-        - Java 17, Spring Boot, Spring Security, REST API, PostgreSQL, Lombok, Swagger, Maven
-        - Тестирование: Junit 5, Mockito
-    
-    Ссылка:
-    - https://github.com/greenblat17/social-network
-    
 ## Учебная практика в ЛЭТИ
     Сервис ввода, индексации и поиска txt-образов документов в базе данных
     
@@ -34,9 +22,22 @@
         - Файлы docker и docker-compose приложены к проекту
     
     Ссылка:
-        - https://github.com/greenblat17/index-documents
+        - https://github.com/greenblat17/index-document
 
-## Тестовое задание от компании NAUMEN
+## Социальная сеть
+    Особенности:
+        - Сервис регистрации и авторизации пользователей на JWT token
+        - Возможность выкладывать посты, лайкать их, а также вступать в группы
+    
+    Стэк:
+        - Java 17, Spring Boot, Spring Security, REST API, PostgreSQL, Lombok, Swagger, Maven
+        - Тестирование: Junit 5, Mockito
+    
+    Ссылка:
+    - https://github.com/greenblat17/social-network
+    
+
+## Приложение для анализа тектсового файла
     Особенности:
         Создать web-приложение на Java, которое может cчитывать из текстового файла строки формата имя_возраст. Например: Андрей_27. Предоставлять веб-    интерфейс с полем ввода для произвольного имени. После отправки имени на сервер в ответ должен прийти возраст, соответствующий этому имени. Если имени нет в перечне, то должно возвращаться произвольное положительное целое число. Также аредоставлять возможность ведения просмотра статистики запросов по каждому имени:
         - вывод частотности запросов в разрезе имён
@@ -48,7 +49,7 @@
         - Тестирование: Junit 5, Mockito
     
     Ссылка:
-        - https://github.com/greenblat17/naumen-task
+        - https://github.com/greenblat17/person-data
 
 ## Приложение обмена валют
     REST API для описания валют и обменных курсов. Позволяет просматривать и редактировать списки валют и обменных курсов, и совершать расчёт конвертации произвольных сумм из одной валюты в другую.
@@ -58,7 +59,7 @@
         - Тестирование: Junit5
     
     Ссылка:
-        - [https://github.com/greenblat17/naumen-task](https://github.com/greenblat17/currency-exchange)
+        - https://github.com/greenblat17/currency-exchange
     
 ## Приложение списка дел (монолит):
     Особенности:
@@ -70,7 +71,7 @@
         - Spring Boot, Spring Data, Spring Security, REST API, PostgreSQL, Lombok, Maven, 
     
     Ссылка:
-        - https://github.com/greenblat17/todo-backend/
+        - https://github.com/greenblat17/todo-backend
 
 ## Приложение списка дел (Spring cloud):
     Особенности:
