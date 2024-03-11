@@ -56,10 +56,14 @@
         - поиск релевантных документов по введенной строке
     
     Стэк:
-        - Java 17, Spring Boot, Spring Security, Apache Solr, PostgreSQL, Lombok, Maven, Thymeleaf
-        - Тестирование: Junit 5, Mockito
+        - Java 17
+        - Spring (Boot, Security)
+        - Apache Solr
+        - PostgreSQL, 
+        - Thymeleaf
+        - Junit 5, Mockito
         - Приложение упаковано в docker сontainer и разворачивается с помощью docker-compose.
-        - Файлы docker и docker-compose приложены к проекту
+
     
     Ссылка:
         - https://github.com/greenblat17/index-document
@@ -77,8 +81,25 @@
         - Ktor
         - Exposed, H2 Database
         - MinIO
+        - Docker
 
     Ссылка: https://github.com/greenblat17/video-streaming
+
+## Сервис для деканата ВУЗа
+    CLI-приложение для учета данных в деканате.
+
+    Особенности:
+        - Получение справки об успеваемости студента
+        - Создание и чтение ресурсов
+        - Подсчет количества студентов для каждой формы обучение
+        - Получение количества часов и формы отчетности по определенной дисциплине
+
+    Стэк:
+        - Java 17
+        - Spring (Boot, Shell, Data JDBC, Data JPA)
+        - PostgreSQL
+        - Liquibase
+        - Docker
     
 ## Приложение для учета возраста 
     Особенности:
@@ -89,8 +110,11 @@
         - Статистика по имени с наибольшим возрастом
     
     Стэк:
-        - Java 17, Spring Boot, H2database, PostgreSQL, Lombok, Maven, Thymeleaf
-        - Тестирование: Junit 5, Mockito
+        - Java 17
+        - Spring Framework
+        - H2database, PostgreSQL,
+        - Thymeleaf
+        - Junit 5, Mockito
     
     Ссылка:
         - https://github.com/greenblat17/person-data
