@@ -1,9 +1,49 @@
 # Portfolio of Alexander Zhuravlev
 
     Portfolio: 
-        - Java Developer
+        - Java Developer at Nexign
         - СS student at Saint Petersburg Electrotechnical University
         - https://github.com/greenblat17
+
+
+## Социальная сеть
+    Особенности:
+        - Регистрация и JWT-аутентификация
+        - Загрузка фото профиля
+        - Возможность отправки сообщения, содержащие текст и изображения
+        - Возможность просмотра ленты новостей, формирующейся из постов пользователей, на которых оформлена подписка
+    
+    Стэк:
+        - Java 17, 
+        - Spring (Boot, Security, Data JPA),  
+        - PostgreSQL, 
+        - Swagger
+        - JUnit5, Mockito
+    
+    Ссылка:
+        - https://github.com/greenblat17/social-media
+
+## Облачное хранилище файлов
+    Пользователи сервиса могут использовать его для загрузки и хранения файлов. Источником вдохновения для проекта является Google Drive.
+
+    Особенности:
+        - Аутентификация пользователя
+        - Загрузка файлов и папок в S3 храналище
+        - Создание новой пустой папки (аналогично созданию новой папки в проводнике)
+        - Удаление и переименование
+        - Рекурсивный алгоритм поиска файлов
+        - Кэширование сессий
+
+    Стэк:
+        - Java 17, 
+        - Spring (Boot, Data JPA, Security)
+        - PostgreSQL
+        - Redis
+        - MinIO S3
+        - Docker
+
+    Ссылка:
+        - https://github.com/greenblat17/cloud-file-storage
 
 ## Учебная практика в ЛЭТИ
     Сервис ввода, индексации и поиска txt-образов документов в базе данных
@@ -24,21 +64,22 @@
     Ссылка:
         - https://github.com/greenblat17/index-document
 
-## Социальная сеть
-    Особенности:
-        - Регистрация и JWT-аутентификация
-        - Загружать фото профиля
-        - Отправлять сообщения, содержащие текст и изображения
-        - Просмотр ленты новостей, формирующейся из постов пользователей, на которых оформлена подписка
-        - 
-    
-    Стэк:
-        - Java 17, Spring Boot, Spring Security, Spring Dat JPA,  PostgreSQL, Swagger, Maven
-    
-    Ссылка:
-        - https://github.com/greenblat17/social-media
-    
+## Стриминговый сервис
+    Приложение получает от пользователя видеофайл и загружает его в объектное хранилище. Потоковое видео доступно по запросу
 
+    Особенности:
+        - Загрузка видео в храналище MinIO S3
+        - Просмотр загруженных видео
+        - Подгрузка файла происходит чанками
+
+    Стэк:
+        - Kotlin
+        - Ktor
+        - Exposed, H2 Database
+        - MinIO
+
+    Ссылка: https://github.com/greenblat17/video-streaming
+    
 ## Приложение для учета возраста 
     Особенности:
         - Считывание текстового файла при запуске 
@@ -54,17 +95,6 @@
     Ссылка:
         - https://github.com/greenblat17/person-data
 
-## Телеграм бот для генерации пароля
-    Особенности:
-        - Пароль создается по алгоритму, который всем известен
-        - Для каждого сервиса создается новый пароль
-        - Пользователь вводит только секретное слово и секретные цифры
-
-    Стэк:
-        - Golang, telegram-bot-api
-
-    Ссылка:
-        - https://github.com/greenblat17/password-generator
 
 ## Приложение обмена валют
     Особенности:
@@ -72,31 +102,9 @@
         - Возможность совершать расчет конвертации произвольных сумм из одной валюты в другую
     
     Стэк:
-        - Java, Servlets, JDBC, PostgreSQL, Lombok, Maven
-        - Тестирование: Junit5
+        - Java, Servlets, 
+        - JDBC, PostgreSQL
+        - Junit5
     
     Ссылка:
         - https://github.com/greenblat17/currency-exchange
-    
-## Приложение списка дел (монолит)
-    Особенности:
-        - Аутентификация и авторизация пользователей на JWT
-        - Возможность добавлять задачи, указывать категории и их приоритет
-        - Возможность искать задачи по названию, категории, приоритету
-    
-    Стэк:
-        - Spring Boot, Spring Data, Spring Security, REST API, PostgreSQL, Lombok, Maven, 
-    
-    Ссылка:
-        - https://github.com/greenblat17/todo-backend
-
-## Приложение списка дел (Spring Сloud)
-    Особенности:
-        ToDo приложение реализовал на микросервисной архитектурые
-        Микросервисы: мс задачи, мс регистрации пользователей. У каждого микросервиса своя база данных
-    
-    Стэк:
-        - Java 17, Spring boot, Spring Cloud, Spring Data, Spring Security, REST API, Lombok, PostgreSQL, Maven, Discovery Eureka
-    
-    Ссылка:
-        - https://github.com/greenblat17/planner-microservices
